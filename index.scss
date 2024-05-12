@@ -1,0 +1,16 @@
+.animate-pulse {
+    animation: pulsate 2s ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
